@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing You!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('bg3.jpg'); /* Your romantic background image */
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>❤️❤️ I'm Always with You ❤️❤️</h1>
+        <p>I'm always here for you. Call me anytime, and I'll be there!</p>
+        <p>❤️ You're the best part of my life! ❤️</p>
+
+        <button class="btn btn-success" onclick="callMe()">Call Me!</button>
+        <button class="btn btn-danger" onclick="window.location.href='index.html'">Back to Birthday Page</button>
+    </div>
+
+    <footer>
+        <p>With all my love,</p>
+        <p>Abishek</p>
+    </footer>
+
+    <script>
+        function callMe() {
+            window.location.href = "tel:+1234567890"; // Replace with your phone number
+        }
+    </script>
+</body>
+</html>
